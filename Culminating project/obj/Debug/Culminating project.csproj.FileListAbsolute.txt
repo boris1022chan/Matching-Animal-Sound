@@ -1,0 +1,27 @@
+G:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe.config
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csprojResolveAssemblyReference.cache
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Form1.resources
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Properties.Resources.resources
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csproj.GenerateResource.Cache
+G:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe
+G:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.pdb
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.exe
+G:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.pdb
+F:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe.config
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.exe
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.pdb
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csprojResolveAssemblyReference.cache
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Form1.resources
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Properties.Resources.resources
+F:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csproj.GenerateResource.Cache
+F:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe
+F:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.pdb
+K:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe.config
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.exe
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.pdb
+K:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.exe
+K:\Gr.11 computer science\Culminating project\Culminating project\bin\Debug\Culminating project.pdb
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csprojResolveAssemblyReference.cache
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Form1.resources
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating_project.Properties.Resources.resources
+K:\Gr.11 computer science\Culminating project\Culminating project\obj\Debug\Culminating project.csproj.GenerateResource.Cache

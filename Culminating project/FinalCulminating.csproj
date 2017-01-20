@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B6BF532-0944-4D17-A727-C524B1C43F6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalCulminating</RootNamespace>
+    <AssemblyName>Culminating project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6TyXRjXGc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8cE6xEpki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49-Free-Cartoon-Cow-Clip-Art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kcKRRXkAi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemmling_cartoon_sheep_coloring_book_colouring_drawing-1979px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8cA6EM4xi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon_bear_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorilla-clip-art-di689nei9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monkey-cartoon-cartoon_monkey-1969px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snake trans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon_dog_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamtaro trans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nemo trans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rcjGjrK5i.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16733887-illustration-of-a-pet-shop-on-a-white-background-Stock-Vector-store.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rcLngExKi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cartoon-landscape-05-vector-material-47847.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bear_Growling-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Best_Cardinal_Bird-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bleat-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cat-meow-mp3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cow-moo-sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog_Woof-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Field_Rat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gorilla-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horse-neigh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkeys_Monkeying_Around-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rattlesnake_Rattle-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rudy_rooster_crowing-Shelley-1948282641.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snorting_Pig-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiger_Growling-SoundBible.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water-bubbles-loopable.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jungle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound-high-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My_Neighbor_Totoro_Theme_Song_Instrumental_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my neighbour totoro 4 sec.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
